@@ -13,5 +13,6 @@
 - Testnachricht mit Signatur empfangen
 - Screenshot der Mail & Signatur gespeichert
 
-  ## Screenshots:
-  ![image](https://github.com/user-attachments/assets/5290898f-af87-4c88-8d0e-ffcc6012c3bf)
+## Screenshots:
+![image](https://github.com/user-attachments/assets/8eb8c960-161c-49fa-a2ca-f826339a3192)
+
