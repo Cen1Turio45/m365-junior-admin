@@ -1,9 +1,9 @@
 # Benutzer anlegen im M365 Admin Center
 
 **Benutzername:** Max Mustertest  
-**E-Mail:** max@LucasTest186.onmicrosoft.com
+**E-Mail:** max@LucasTest186.onmicrosoft.com  
 **Rolle:** Standardbenutzer  
-**Lizenz:** Microsoft Business Standard
+**Lizenz:** Microsoft 365 Business Standard  
 **Datum:** 20.04.2025
 
 ## Schritte:
