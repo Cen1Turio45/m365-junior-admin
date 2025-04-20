@@ -1,0 +1,17 @@
+# Outlook Web – Konfiguration & Test
+
+**Benutzer:** Max Mustertest  
+**E-Mail-Adresse:** max@LucasTest186.onmicrosoft.com  
+**Datum:** 20.04.2025
+
+## Konfiguration:
+- Signatur erstellt über Konto-Einstellungen
+- Signatur automatisch bei neuen Mails aktiviert
+
+## Testdurchlauf:
+- E-Mail erfolgreich versendet
+- Testnachricht mit Signatur empfangen
+- Screenshot der Mail & Signatur gespeichert
+
+  ## Screenshots:
+  ![image](https://github.com/user-attachments/assets/5290898f-af87-4c88-8d0e-ffcc6012c3bf)
