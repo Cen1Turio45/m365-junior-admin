@@ -21,15 +21,8 @@ Die 2 gelöschten Test User mit Powershell wiederherstellen
 
 7. Skript laufen lassen:
 
-foreach ($user in $users) {
-    $deletedUser = Get-MgDirectoryDeletedUser -Filter "UserPrincipalName eq '$($user.UserPrincipalName)'"
-    if ($deletedUser) {
-        Restore-MgDirectoryDeletedUser -UserId $deletedUser.Id
-        Write-Host "Wiederhergestellt: $($user.UserPrincipalName)"
-    } else {
-        Write-Host " Nicht gefunden: $($user.UserPrincipalName)"
-    }
-}
+![image](https://github.com/user-attachments/assets/1656059e-9367-449c-a5b9-25d5945dd932)
+
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/bad1d381-cc6e-42d9-bd7e-ddb9676aa49d)
