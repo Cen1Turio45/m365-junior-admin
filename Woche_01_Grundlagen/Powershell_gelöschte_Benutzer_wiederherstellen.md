@@ -10,7 +10,6 @@ Die 2 gelöschten Test User mit Powershell wiederherstellen
 
 3. Module installieren:
    Import-Module Microsoft.Graph
-   Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
 
 5. Microsoft Device Login Befehl in Powershell eingeben:
    Connect-MgGraph -Scopes "User.ReadWrite.All"
@@ -31,8 +30,6 @@ Die 2 gelöschten Test User mit Powershell wiederherstellen
 
 
 
-
-
 ## Hinweise
 Beim öffnen von Powershell müssen alle Module intsalliert werden, 
 sonst klappt es nicht.
@@ -44,17 +41,26 @@ Powershell-Code immer in Notepad einfügen und dann mit Strg A Strg kopieren.
 
 
 ## Powershell Code
+Module:
+Import-Module Microsoft.Graph
+Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
 
+M365 Login:
 Connect-MgGraph -Scopes "User.ReadWrite.All"
 
+CS Datei Laden:
 $users = Import-Csv -Path "C:\Users\lucas\OneDrive\Desktop\Systemadministrator\users_to_restore.csv"
+$deleted = Get-MgDirectoryDeletedUser
 
-foreach ($user in $users) {
-    $deletedUser = Get-MgDirectoryDeletedUser -Filter "UserPrincipalName eq '$($user.UserPrincipalName)'"
-    if ($deletedUser) {
-        Restore-MgDirectoryDeletedUser -UserId $deletedUser.Id
-        Write-Host "✅ Wiederhergestellt: $($user.UserPrincipalName)"
+Skript:
+$deleted = Get-MgDirectoryDeletedUser
+
+foreach ($target in $users) {
+    $match = $deleted | Where-Object { $_.DisplayName -eq $target.DisplayName }
+    if ($match) {
+        Invoke-MgGraphRequest -Method POST -Uri "https://graph.microsoft.com/v1.0/directory/deletedItems/$($match.Id)/restore"
+        Write-Host "✅ Wiederhergestellt: $($match.DisplayName)"
     } else {
-        Write-Host "⚠️ Nicht gefunden: $($user.UserPrincipalName)"
+        Write-Host "⚠️ Nicht gefunden: $($target.DisplayName)"
     }
 }
