@@ -38,9 +38,13 @@ foreach ($user in $users) {
 
 
 ## Hinweise
-Bei der erstmaligen Installation müssen erst alle Module intsalliert werden, sonst klappt es nicht
+Bei der erstmaligen Installation müssen erst alle Module intsalliert werden, 
+sonst klappt es nicht
+
 Windows 11 spiechert deinen Desktop bei OneDrive und nicht direkt auf dem Benutzer
+
 Powershell-Code immer in Notepad einfügen und dann mit Strg A Strg kopieren
+
 Bei jeder neuen Sitzung Modul neu installieren
 
 ## Powershell Code
