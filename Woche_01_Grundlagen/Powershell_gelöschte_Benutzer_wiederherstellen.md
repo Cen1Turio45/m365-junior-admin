@@ -23,16 +23,17 @@ foreach ($user in $users) {
     $deletedUser = Get-MgDirectoryDeletedUser -Filter "UserPrincipalName eq '$($user.UserPrincipalName)'"
     if ($deletedUser) {
         Restore-MgDirectoryDeletedUser -UserId $deletedUser.Id
-        Write-Host "✅ Wiederhergestellt: $($user.UserPrincipalName)"
+        Write-Host "Wiederhergestellt: $($user.UserPrincipalName)"
     } else {
-        Write-Host "⚠️ Nicht gefunden: $($user.UserPrincipalName)"
+        Write-Host " Nicht gefunden: $($user.UserPrincipalName)"
     }
 }
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/3bb23d49-7481-4b5a-ba95-7e0ed04324e0)
+![image](https://github.com/user-attachments/assets/bad1d381-cc6e-42d9-bd7e-ddb9676aa49d)
 
-![image](https://github.com/user-attachments/assets/c2bae42d-bb36-4575-8284-22175516d9f8)
+![image](https://github.com/user-attachments/assets/635b1b10-0e62-45c0-9756-36207a20ee3c)
+
 
 
 
