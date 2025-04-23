@@ -51,7 +51,7 @@ $deleted = Get-MgDirectoryDeletedUser
 
 Skript:
 
-Beim Skript erst einmal den $deleted= part eingen und enter und danach das Skript!
+!!!Beim Skript erst einmal den $deleted= part eingen und enter und danach das Skript!!!
 
 $deleted = Get-MgDirectoryDeletedUser
 
