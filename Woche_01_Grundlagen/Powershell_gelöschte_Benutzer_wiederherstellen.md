@@ -28,7 +28,6 @@ Alle wichtigen Daten sind unter Powershell Code zu finden!
 
 ![image](https://github.com/user-attachments/assets/de1a4a5a-084c-4978-9e32-ce51795ad1d5)
 
-
 ## Hinweise
 Beim öffnen von Powershell müssen alle Module intsalliert werden, 
 sonst klappt es nicht.
@@ -51,6 +50,9 @@ $users = Import-Csv -Path "C:\Users\lucas\OneDrive\Desktop\Systemadministrator\u
 $deleted = Get-MgDirectoryDeletedUser
 
 Skript:
+
+Beim Skript erst einmal den $deleted= part eingen und enter und danach das Skript!
+
 $deleted = Get-MgDirectoryDeletedUser
 
 foreach ($target in $users) {
