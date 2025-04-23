@@ -9,16 +9,17 @@ Die 2 gelöschten Test User mit Powershell wiederherstellen
 2. Powershell öffnen
 
 3. Module installieren:
-   Install-Module Microsoft.Graph -Scope CurrentUser -Force und mit Y bestätigen
+   Import-Module Microsoft.Graph
+   Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
 
-4. Microsoft Device Login Befehl in Powershell eingeben:
+5. Microsoft Device Login Befehl in Powershell eingeben:
    Connect-MgGraph -Scopes "User.ReadWrite.All"
 
-5. Cs Datei laden + überprüfen:
+6. Cs Datei laden + überprüfen:
    $users = Import-Csv -Path "C:\Users\lucas\OneDrive\Desktop\Systemadministrator\users_to_restore.csv"
    $users | Format-Table
 
-6. Skript laufen lassen:
+7. Skript laufen lassen:
 foreach ($user in $users) {
     $deletedUser = Get-MgDirectoryDeletedUser -Filter "UserPrincipalName eq '$($user.UserPrincipalName)'"
     if ($deletedUser) {
@@ -39,14 +40,14 @@ foreach ($user in $users) {
 
 
 ## Hinweise
-Bei der erstmaligen Installation müssen erst alle Module intsalliert werden, 
-sonst klappt es nicht
+Beim öffnen von Powershell müssen alle Module intsalliert werden, 
+sonst klappt es nicht.
 
-Windows 11 spiechert deinen Desktop bei OneDrive und nicht direkt auf dem Benutzer
+Windows 11 spiechert deinen Desktop bei OneDrive und nicht direkt auf dem Benutzer.
 
-Powershell-Code immer in Notepad einfügen und dann mit Strg A Strg kopieren
+Powershell-Code immer in Notepad einfügen und dann mit Strg A Strg kopieren.
 
-Bei jeder neuen Sitzung Modul neu installieren
+
 
 ## Powershell Code
 
