@@ -12,7 +12,9 @@ Mehrere Benutzer gleichzeitig in Microsoft 365 erstellen, basierend auf einer CS
 
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/edca0e6f-cf2b-436b-9b04-70d458f20c3a)
+
 ![image](https://github.com/user-attachments/assets/897e29cd-ae80-45cb-a59a-6e16127f50b3)
+
 ![image](https://github.com/user-attachments/assets/96cde7e9-bbee-4a13-be9c-9f1eb341f64d)
 
 
