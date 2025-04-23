@@ -5,29 +5,28 @@ Die 2 gelöschten Test User mit Powershell wiederherstellen
 
 ## Schritte
 1. Csv Datei erstellen
-
 2. Powershell öffnen
+3. Microsoft.Graph Module installieren
+4. Microsoft Device Login Befehl in Powershell eingeben
+5. Cs Datei laden + überprüfen
+6. Skript laufen lassen
 
-3. Module installieren:
-   Import-Module Microsoft.Graph
-
-5. Microsoft Device Login Befehl in Powershell eingeben:
-   Connect-MgGraph -Scopes "User.ReadWrite.All"
-
-6. Cs Datei laden + überprüfen:
-   $users = Import-Csv -Path "C:\Users\lucas\OneDrive\Desktop\Systemadministrator\users_to_restore.csv"
-   $users | Format-Table
-
-7. Skript laufen lassen:
-
-![image](https://github.com/user-attachments/assets/1656059e-9367-449c-a5b9-25d5945dd932)
+Alle wichtigen Daten sind unter Powershell Code zu finden!
 
 
 ## Screenshots
+
 ![image](https://github.com/user-attachments/assets/bad1d381-cc6e-42d9-bd7e-ddb9676aa49d)
 
 ![image](https://github.com/user-attachments/assets/635b1b10-0e62-45c0-9756-36207a20ee3c)
 
+![image](https://github.com/user-attachments/assets/3615ad8b-6b0a-4c4b-800b-631cea37930b)
+
+![image](https://github.com/user-attachments/assets/b9e862aa-bbfb-48c5-aa5e-eb9ee634559d)
+
+![image](https://github.com/user-attachments/assets/745ad83a-8f25-4524-91ce-58cca4e5d405)
+
+![image](https://github.com/user-attachments/assets/de1a4a5a-084c-4978-9e32-ce51795ad1d5)
 
 
 ## Hinweise
@@ -43,7 +42,6 @@ Powershell-Code immer in Notepad einfügen und dann mit Strg A Strg kopieren.
 ## Powershell Code
 Module:
 Import-Module Microsoft.Graph
-Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
 
 M365 Login:
 Connect-MgGraph -Scopes "User.ReadWrite.All"
