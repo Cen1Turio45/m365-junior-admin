@@ -28,7 +28,7 @@ Get-MailContact | Format-Table Name, ExternalEmailAddress
 6. nur ein bestimmter Mail Kontakt:
 Get-MailContact -Identity "Test Test04"
 
-7.Kontakt bearbeiten:
+7. Kontakt bearbeiten:
 Set-MailContact -Identity "Test Test04" -DisplayName "Externer Supportpartner"
 
 8. Kontakt löschen:
