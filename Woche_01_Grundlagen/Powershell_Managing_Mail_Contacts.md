@@ -35,7 +35,7 @@ Set-MailContact -Identity "Test Test04" -DisplayName "Externer Supportpartner"
 Remove-MailContact -Identity "Externer Partner"
 
  9. Mehrere Kontakte mit CSV hinzufügen:
-$kontakte = Import-Csv "C:\Pfad\zu\kontakte.csv"
+$kontakte = Import-Csv "C:\Users\lucas\OneDrive\Desktop\Systemadministrator\M365\E-Mail.csv"
 
 foreach ($kontakt in $kontakte) {
     New-MailContact -Name $kontakt.Name -ExternalEmailAddress $kontakt.ExternalEmailAddress
