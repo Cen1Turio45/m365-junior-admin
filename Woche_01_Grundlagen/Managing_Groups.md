@@ -19,5 +19,9 @@
 - Mitglieder erfolgreich hinzugefügt
 
 ## Screenshots:
-![image](https://github.com/user-attachments/assets/gruppe_screenshot_01.png)
-![image](https://github.com/user-attachments/assets/gruppe_screenshot_02.png)
+![image](https://github.com/user-attachments/assets/4c0d28e3-3ebe-4c8c-82d1-494b84db0923)
+
+![image](https://github.com/user-attachments/assets/745424d5-3431-475d-a38c-46bb1e7ce4b6)
+
+![image](https://github.com/user-attachments/assets/f00bf6a6-1d2e-4cdd-8aa8-68a02a15ca59)
+
