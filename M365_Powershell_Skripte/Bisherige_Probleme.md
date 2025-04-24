@@ -1,4 +1,4 @@
-# Häufigeste fehler & Lösungen - Powershell für M365
+# Häufigeste Fehler & Lösungen - Powershell für M365
 
 1. nicht die richtigen Module installiert gehabt, weswegen es oft Fehlercodes gab.
 
