@@ -72,5 +72,8 @@ Externer Kunde2,externer2@example.com
 
 ![image](https://github.com/user-attachments/assets/1988b6d8-08ad-4d12-ae03-8f9a35886c47)
 
-![image](https://github.com/user-attachments/assets/d1027cce-2647-45e7-9b5d-5fad0be19be9)
+![image](https://github.com/user-attachments/assets/b6a79889-e549-4556-8e68-c16b2de83c8a)
 
+![image](https://github.com/user-attachments/assets/bd044c17-1218-46cb-bf06-44d690b0159f)
+
+![image](https://github.com/user-attachments/assets/a14f329a-2c35-4385-9383-f51a121707a9)
