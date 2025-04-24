@@ -17,9 +17,9 @@
 1. PowerShell als Admin öffnen
 
 2. Module installieren:
-  Import-Module Microsoft.Graph
-  Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
-  Import-Module Microsoft.Graph.Users -Force
+  - Import-Module Microsoft.Graph
+  - Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber
+  - Import-Module Microsoft.Graph.Users -Force
 
 
 3. Bei Microsoft Graph anmelden:
