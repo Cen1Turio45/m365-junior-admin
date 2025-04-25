@@ -5,7 +5,12 @@
 1. Admin Center öffnen
 2. Benutzer > aktiver Benutzer > diesen erstellen und Lizenz hinzufügen
 3. Postfach wird automatisch erstellt
-4. 
 
-## Hinweise:
-- Für umfangreicher Dokumentation in Woche_01_Grundlagen gehen
+## Screenshots:
+
+![image](https://github.com/user-attachments/assets/031f044f-ec2d-43d3-8a37-928aebec8a11)
+
+## Hinweis:
+- Bei neuer Testumgebung am Anfang unter Microsft Entra Admin Center > Identität > Übersicht > Eigenschaften > Sicherheitssatndard verwalten > deaktivieren um MFA zu umgehen
+- Bei wirklicher Einrichtung immer aktiviert lassen!
+  
