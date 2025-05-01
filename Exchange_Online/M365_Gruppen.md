@@ -7,6 +7,7 @@ M365 Gruppe erstellen
 
 ## Hinweise: 
 Besitzer kann Mitglieder hinzufügen, entfernen  und Einstellungen abändern
+In Outlook unter Gruppe entdecken, kann man öffentlichen Gruppen beitreten.
 
 Unter Datenschutz: 
 Öffntliche Gruppe jeder kann beitreten, ohne zustimmung von Besitzer.
