@@ -9,3 +9,4 @@ Natürlich erstellt man dann für alle nochmal ein neues ppersönliches Posfach.
 
 ## Notiz:
 Ist auch umgekehrt von Shared Mailbox nach User Mailbox möglich
+Dafür erst im M365 Admin Cneter ein Kennwort vergeben, da sich dann reale Person anmeldet
