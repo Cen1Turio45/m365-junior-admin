@@ -1,23 +1,23 @@
-Dynamische Verteilergruppe:
+# Dynamische Verteilergruppe:
 Beschreibt, wie man dynamische Verteilergruppen in Microsoft Exchange erstellt und verwaltet.
 
-M365 Gruppen:
+# M365 Gruppen:
 Erläutert die Einrichtung und Verwaltung von Microsoft 365 Gruppen für Zusammenarbeit und Berechtigungen.
 
-Nachrichtenfluss:
+# Nachrichtenfluss:
 Gibt einen Überblick über den Nachrichtenfluss in einer Exchange- oder M365-Umgebung.
 
-Postfach erstellen:
+# Postfach erstellen:
 Zeigt, wie man neue Benutzerpostfächer in Exchange oder M365 erstellt.
 
-Postfach exportieren:
+# Postfach exportieren:
 Erklärt, wie man Postfachinhalte in eine PST-Datei exportiert.
 
-Postfächer konfigurieren:
+# Postfächer konfigurieren:
 Beinhaltet Anleitungen zur Konfiguration von Postfächern, z. B. Berechtigungen oder Weiterleitungen.
 
-Security Group:
+# Security Group:
 Beschreibt die Erstellung und Verwaltung von Sicherheitsgruppen zur Zugriffssteuerung.
 
-Shared_Mailbox erstellen:
+# Shared_Mailbox erstellen:
 Führt durch die Erstellung und Bereitstellung eines freigegebenen Postfachs.
