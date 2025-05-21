@@ -1,0 +1,5 @@
+# Beschreibung:
+1. Exchange Admin Center öffnen > E-Mail Fluss > Nachrichtenablaufverfolgung
+2. Standardabfrage > 1 Punkt > Absender und Empfänger eingeben > Zeitraum (weniger als 10, sonst csv Datei)
+3. Zusammenfassungsbericht und Sofortiger Onlinezugriff auswählen
+4. Grund warum es nicht geklappt hat wird angezeigt
