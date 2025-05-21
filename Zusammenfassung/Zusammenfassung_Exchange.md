@@ -21,3 +21,6 @@ Beschreibt die Erstellung und Verwaltung von Sicherheitsgruppen zur Zugriffssteu
 
 # Shared_Mailbox erstellen:
 Führt durch die Erstellung und Bereitstellung eines freigegebenen Postfachs.
+
+# Unterschied Mail_User und Mail_Kontakt:
+Mail Kontakt nur Kontakt, Mail User kann EBsprechnungen hinzugefügt werden und wenn sich dieser bei uns in zum Beispile Teams einloggt kann er auch aktiv an diesen teilnehmen 
