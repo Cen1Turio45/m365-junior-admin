@@ -24,3 +24,6 @@ Führt durch die Erstellung und Bereitstellung eines freigegebenen Postfachs.
 
 # Unterschied Mail_User und Mail_Kontakt:
 Mail Kontakt nur Kontakt, Mail User kann Besprechnungen hinzugefügt werden und wenn sich dieser bei uns in zum Beispiel Teams einloggt kann er auch aktiv an diesen teilnehmen, Mail User brauch Lizenz wenn er sich anmelden will.
+
+#Nachrichtenverfolgung:
+Nachricht ist nicht angekommen, wir schauen jetzt nach ob diese rausgegangen ist.
