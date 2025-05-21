@@ -23,4 +23,4 @@ Beschreibt die Erstellung und Verwaltung von Sicherheitsgruppen zur Zugriffssteu
 Führt durch die Erstellung und Bereitstellung eines freigegebenen Postfachs.
 
 # Unterschied Mail_User und Mail_Kontakt:
-Mail Kontakt nur Kontakt, Mail User kann EBsprechnungen hinzugefügt werden und wenn sich dieser bei uns in zum Beispiel Teams einloggt kann er auch aktiv an diesen teilnehmen 
+Mail Kontakt nur Kontakt, Mail User kann Besprechnungen hinzugefügt werden und wenn sich dieser bei uns in zum Beispiel Teams einloggt kann er auch aktiv an diesen teilnehmen, Mail User brauch Lizenz wenn er sich anmelden will.
